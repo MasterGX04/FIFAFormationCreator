@@ -1,0 +1,63 @@
+.player-card-mini {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    /* Adjust width as needed */
+    height: 200px;
+    /* Adjust height as needed */
+    padding: 10px;
+    background-image: url('empty_card.png');
+    /* Set the background image */
+    background-size: cover;
+    border-radius: 50% 50% 0 0 / 0 0 100% 100%;
+    transform: scale(0.75);
+    z-index: 1; 
+}
+
+.player-card-mini .left-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.player-card-mini .right-panel {
+    text-align: center;
+    font-family: "Lucida Sans", sans-serif;
+    margin-bottom: 70px;
+    margin-right: 35px;
+}
+
+.player-card-mini .player-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.player-card-mini .player-photo {
+    width: 75px;
+    /* Adjust width as needed */
+    height: 75px;
+    /* Adjust height as needed */
+    border-radius: 50%;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.player-card-mini .club-logo {
+    width: 25px;
+    /* Adjust width as needed */
+    height: 25px;
+    /* Adjust height as needed */
+    margin-bottom: 5px;
+}
+
+.player-card-mini .country-flag {
+    width: 15px;
+    /* Adjust width as needed */
+    height: auto;
+    margin-bottom: 5px;
+}

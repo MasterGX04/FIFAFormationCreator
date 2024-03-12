@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  text-align: left;
+  padding: 10px;
 }
 
 .App-logo {
@@ -24,9 +25,124 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.player-card {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px; /* Adjust width as needed */
+  height: 400px; /* Adjust height as needed */
+  padding: 20px;
+  background-image: url('empty_card.png'); /* Set the background image */
+  background-size: cover;
+  border-radius: 50% 50% 0 0 / 0 0 100% 100%;
 }
+
+.left-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right-panel {
+  text-align: center;
+  font-family: "Lucida Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: -15px;
+  margin-right: 35px;
+}
+
+.attribute-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  align-items: center; 
+}
+
+.search-button {
+  background-color: rgb(47, 109, 243);
+  color: white;
+  border-radius: 10px;
+  padding: 5px 15px;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+  cursor: pointer;
+}
+
+.player-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 33px;
+}
+
+.player-photo {
+  width: 150px; /* Adjust width as needed */
+  height: 150px; /* Adjust height as needed */
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.club-logo {
+  width: 50px; /* Adjust width as needed */
+  height: 50px; /* Adjust height as needed */
+  margin-bottom: 5px;
+}
+
+.country-flag {
+  width: 30px; /* Adjust width as needed */
+  height: auto;
+  margin-bottom: 5px;
+}
+
+.attribute-group {
+  display: flex; /* Display attribute groups as a flex container */
+  flex-direction: row;
+  justify-content: space-between; /* Distribute items evenly */
+  width: 75%; /* Occupy full width */
+}
+
+.attribute-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+  flex: 1
+}
+
+.attribute-name {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.attribute-value {
+  font-size: 16px;
+}
+
+.search-input {
+  font-family:'Monaco', monospace;
+  font-size: 14px;
+  padding: 2px;
+  border: 5px solid #007bff;
+  outline: none;
+}
+
+.search-input:focus {
+  border-color: #0056b3; /* Darker blue color on focus */
+}
+
+h2, h3 {
+  margin: 0;
+  font-weight: normal;
+}
+
 
 @keyframes App-logo-spin {
   from {

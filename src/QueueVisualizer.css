@@ -1,0 +1,30 @@
+.queue-visualizer {
+    background-color: #fbff00;
+    padding: 10px;
+
+}
+
+.queue-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust the minmax value as needed */
+}
+
+.queue-row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.queue-visualizer h2 {
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 767px) {
+    .queue-container {
+        justify-content: flex-start;
+    }
+    .queue-container:nth-child(6n + 1) {
+        clear: left;
+    }
+}
