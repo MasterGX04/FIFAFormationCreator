@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/FIFAFormationCreator/static/css/main.f2b4ac76.css",
+    "main.js": "/FIFAFormationCreator/static/js/main.2aa7687f.js",
+    "static/js/592.39306d7d.chunk.js": "/FIFAFormationCreator/static/js/592.39306d7d.chunk.js",
+    "static/media/FIFA23FullInfo.csv": "/FIFAFormationCreator/static/media/FIFA23FullInfo.1bd37629633bb1440e4c.csv",
+    "static/media/empty_card.png": "/FIFAFormationCreator/static/media/empty_card.4a68ea031545135dad2b.png",
+    "static/media/ClubLogos.csv": "/FIFAFormationCreator/static/media/ClubLogos.66319860d4ded885719e.csv",
+    "static/media/soccerfield.png": "/FIFAFormationCreator/static/media/soccerfield.05dd37b5ade16db851cf.png",
+    "static/media/default_player.png": "/FIFAFormationCreator/static/media/default_player.52adf52fb2232b415097.png",
+    "static/media/CountryFlags.csv": "/FIFAFormationCreator/static/media/CountryFlags.01bd7da48d60b663bc73.csv",
+    "index.html": "/FIFAFormationCreator/index.html",
+    "main.f2b4ac76.css.map": "/FIFAFormationCreator/static/css/main.f2b4ac76.css.map",
+    "main.2aa7687f.js.map": "/FIFAFormationCreator/static/js/main.2aa7687f.js.map",
+    "592.39306d7d.chunk.js.map": "/FIFAFormationCreator/static/js/592.39306d7d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2b4ac76.css",
+    "static/js/main.2aa7687f.js"
+  ]
+}
